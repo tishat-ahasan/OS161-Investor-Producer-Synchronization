@@ -1,38 +1,53 @@
-# OS161-Investor-Producer-Synchronization:
-
-1. Read Problem Description carefully to understand the problem.
+ 1. Read Problem Description carefully to understand the problem.
 
  & Read Second Part of Design Document to understand the solution properly.
 
 2. Unzip asst1.zip and go to directory $ asst1/src/kern/asst1 here you will see the following files: 
+
     1.invest_assignment.c  
+
     2.invest_assignment.h
+
     3.investor_producer.c
+
     4.investor_producer.h
-you have to complete the function in investor_producer.c according to the demand of invest_assignment.c.
 
-3.Solution is on the Solution Folder.Just replace the "investor_producer.c" and "investor_producer.h" files in asst1/src/kern/asst1 with the files situated in Solution Folder (With same name). 
+you have to complete the function in **investor_producer.c** according to the demand of **invest_assignment.c.**
 
-4.To compile you need to run the Compile.sh file.to do so run the following 2 commands in terminal
+
+3. Solution is on the Solution Folder.Just replace the **"investor_producer.c"** and **"investor_producer.h"** files in **asst1/src/kern/asst1** with the files situated in Solution Folder (With same name). 
+
+4. To compile you need to run the Compile.sh file.to do so run the following 2 commands in terminal
+
     $ chmod -R 777 Compile.sh  //to change the permission.Need to run only once. 
+
     $ ./Compile
 
-5.Then Run the os-161 by: 
+5. Then Run the os-161 by: 
+
     $ chmod -R 777 Run.sh   //to change the permission.Need to run only once.
+
     $ ./Run 
 
 you should see the following:
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 sys161: System/161 release 2.0.8, compiled Jul 18 2019 20:15:45
 
+
 OS/161 base system version 2.0.3
+
 Copyright (c) 2000, 2001-2005, 2008-2011, 2013, 2014
+
    President and Fellows of Harvard College.  All rights reserved.
+
 
 Put-your-group-name-here's system version 0 (ASST1 #125)
 
+
 1888k physical memory available
+
 Device probe...
 lamebus0 (system main bus)
 emu0 at lamebus0
@@ -47,9 +62,14 @@ lhd1 at lamebus0
 lser0 at lamebus0
 con0 at lser0
 
+
+
 cpu0: MIPS/161 (System/161 2.x) features 0x0
+
 OS/161 kernel [? for menu]:
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 Now put '1b' to run the Investor Producer Problem.you should see a window like this:
 
@@ -80,4 +100,4 @@ Teacher said everthing is ok except 2 thinks.
 we split every order in equal 3 size in order_item() funtion.He said not to split it.Instead
 take 1/3 orders of the of total currently placed order,if you understand the solution properly 
 hopefully you can implement it. 
-2.He asked to use semaphore for every bank explicitely. 
+2.He asked to use semaphore for every bank explicitely.
