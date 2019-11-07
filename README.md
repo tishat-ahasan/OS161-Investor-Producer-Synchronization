@@ -119,14 +119,15 @@ Operation took 1.881944000 seconds
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Teacher's Feedback: 
+**Teacher's Feedback:** 
 
 #################################################
 
 Teacher said everthing is ok except 2 thinks. 
 
-1.There was a condition that a producer can take at most 1/3 of a order.to do so
+>1.There was a condition that a producer can take at most 1/3 of a order.to do so
 we split every order in equal 3 size in order_item() funtion.He said not to split it.Instead
 take 1/3 orders of the of total currently placed order,if you understand the solution properly 
 hopefully you can implement it. 
-2.He asked to use semaphore for every bank explicitely.
+
+>2.He asked to use semaphore for every bank explicitely.
