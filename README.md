@@ -123,7 +123,7 @@ Operation took 1.881944000 seconds
 
 #################################################
 
-Teacher said everthing is ok except 2 thinks. 
+Teacher said everthing is ok except 2 recommendations: 
 
 >1.There was a condition that a producer can take at most 1/3 of a order.to do so
 we split every order in equal 3 size in order_item() funtion.He said not to split it.Instead
